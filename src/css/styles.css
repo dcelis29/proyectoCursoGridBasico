@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'roboto', sans-serif;
+}
+header{
+    width: 360px;
+}
+
+.header-info{
+    border: 1px solid salmon;
+    background-image: url("../img/hero.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 70%;
+}
+.header-info h1{
+    font-size: 3.2rem;
+    margin: 50PX 0; 
+}
+.header-info p{
+    width: 85%;
+    font-size: 1.4rem;
+}
