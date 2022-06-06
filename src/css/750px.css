@@ -1,0 +1,11 @@
+
+header .box-background{    
+    display: none;
+}
+
+header .header-description{
+    width: 50%;
+}
+.plates{
+    grid-template-columns: repeat(auto-fit, 18%);
+}

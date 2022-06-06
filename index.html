@@ -6,14 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css Grid</title>
     <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="/src/css/400px.css" media = "(min-width: 400px)">
+    <link rel="stylesheet" href="/src/css/600px.css" media = "(min-width: 600px)">
+    <link rel="stylesheet" href="/src/css/750px.css" media = "(min-width: 750px)">
 </head>
 <body>
-    <header>        
-        <section class="header-info">
+    <header>
+        <div class="box-background"></div> 
+        <div class="header-info">
             <h1>Check the <br> best food</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor neque sed turpis bibendum dapibus.</p>
-            <button>Book a table</button>
-        </section>
+            <p class="header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor neque sed turpis bibendum dapibus.</p>
+            <button class="header-button--cta">Book a table</button>  
+        </div> 
     </header>
+
+    <main>
+        <section class="services">
+            <h2>Our Services</h2>
+            <article class="dishes">
+                <figure class="item-dish video">
+                    <img src="./src/img/video.png" alt="Video plato de pasta" title="Video plato de pasta">
+                </figure>
+                <figure class="item-dish dish1">
+                    <img src="./src/img/dish1.png" alt="Imagen plato verduras" title = "Plato verduras">
+                </figure>
+                <figure class="item-dish dish2">
+                    <img src="./src/img/dish2.png" alt="Imagen plato frutas" title = "Plato frutas">
+                </figure>
+                <figure class="item-dish dish3">
+                    <img src="./src/img/dish3.png" alt="Imagen plato sushi" title = "Plato sushi">
+                </figure>
+                <figure class="item-dish dish4">
+                    <img src="./src/img/dish4.png" alt="Imagen plato vegetales" title = "Plato vegetales">
+                </figure>
+            </article>
+        </section>
+
+        <section class="menu">
+            <h2>Home menu</h2>
+            <article class="plates">
+                <figure class="item-plate plate1">
+                    <img src="./src/img/plate1.png" alt="Plato pastas boloñesa" title = "Plato pastas boloñesa">
+                </figure>
+                <figure class="item-plate plate2">
+                    <img src="./src/img/plate2.png" alt="Plato macarrones" title = "Plato macarrones">
+                </figure>
+                <figure class="item-plate plate3">
+                    <img src="./src/img/plate3.png" alt="Plato pasta tornillos" title = "Plato pasta tornillos">
+                </figure>
+                <figure class="item-plate plate4">
+                    <img src="./src/img/plate4.png" alt="Plato pastas" title = "Plato pastas">
+                </figure>
+                <figure class="item-plate plate5">
+                    <img src="./src/img/plate5.png" alt="Plato Verduras" title = "Plato Verduras">
+                </figure>                
+            </article>
+        </section>
+    </main>
 </body>
 </html>
